@@ -1,0 +1,19 @@
+{
+  "name": "ipfs-pubsub-demo",
+  "version": "0.0.1",
+  "description": "IPFS pub-sub demo",
+  "main": "index.js",
+  "scripts": {
+    "start-ipfs-server": "node src/server.js",
+    "start-http": "http-server -c-1 -p 12345 public",
+    "compile": "browserify src/app.js -o public/js/app.js -d"
+  },
+  "author": "Pedro Teixeira <i@pgte.me>",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^16.2.3",
+    "http-server": "^0.11.1",
+    "ipfs": "^0.33.1",
+    "ipfs-pubsub-room": "^1.2.1"
+  }
+}
