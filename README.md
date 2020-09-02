@@ -1,5 +1,7 @@
 # IPFS pubsub example (server to browser client thru ipfs)
 
+<a href="https://www.buymeacoffee.com/sloev" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-pink.png" alt="Buy Me A Coffee" height="51px" width="217px"></a>
+
 server:
 * cycles through image files in a folder
 * adds them one by one to ipfs
